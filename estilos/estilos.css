@@ -1,0 +1,50 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    text-align: center;
+}
+form { 
+    padding: 50px 20px;
+    background-color: aliceblue;
+    margin: calc(25% + 100px);
+    margin-top: 70px;
+    padding-top: 28px;
+    margin-bottom: 30px;
+}
+h1 { 
+    text-align: center;
+    padding: 12px;
+    color: mediumslateblue;
+}
+input {
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background-color: rgb(206, 64, 198);
+    color: plum;
+    width: cal(80px - 20px);
+    margin: 0 10%;
+    margin-top: 22px;
+    border: none;
+}
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: rebeccapurple;
+    color: violet;
+}
+
+.error{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: palevioletred;
+    color: orchid;
+}
